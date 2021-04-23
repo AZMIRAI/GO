@@ -1,8 +1,9 @@
 package main
-
+	
 import "fmt"
 
 func main()  {
-	fmt.Print("こんにちは！")
-
+	fmt.Print("ハローワルド")
+		//ハローワルド를 출력한다
+	
 }
