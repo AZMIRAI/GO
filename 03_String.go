@@ -3,9 +3,11 @@ package main
 import "fmt"
 
 func main()  {
+	
 	// *********************************
 	//********** 문 자 열 *************
 	// *********************************
+	
 	fmt.Println(len("Hello World"));
 	// 문자열 길이를 반환 ( 공백도 포함 )
 	fmt.Println("hello World"[1]);
