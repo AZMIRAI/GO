@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main()  {
 
@@ -24,5 +22,5 @@ func main()  {
 	// 나눗셈 ( 한연산자중 1개만 소숫점이 들어가면 결과값도 소숫점이 나온다
 	fmt.Println("402 % 10.0 = ", 402 % 10);
 	// 나머지 연산 ( 부동소숫점은 가능하지않는다 )
-
+	
 }
