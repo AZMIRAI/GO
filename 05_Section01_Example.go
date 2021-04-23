@@ -16,5 +16,5 @@ func main()  {
 
 	fmt.Println((true && true)||(false && true)||!(false && false));
 		// 연습문제 5
-
+	
 }
