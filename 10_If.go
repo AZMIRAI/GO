@@ -3,21 +3,26 @@ package main
 import "fmt"
 
 func main()  {
- sniffling();
- 	//sniffling 호출
+
+	// ******************************
+	// ********** IF 文 *************
+	// ******************************
+
+	sniffling();
+ 		//sniffling 呼出し
 
 }
 
 func sniffling()  {
 	for i:=0; i<10; i++{
 		if i % 2 == 0{
-			//혹시 2로 나눠서 나머지가 0이면
+			//もし2を割り算して残りが0だったら
 
-			fmt.Println("짝수",i);
+			fmt.Println("偶数",i);
 		} else {
-			// 아니면
+			// それじゃなかったら
 
-			fmt.Println("홀수",i);
+			fmt.Println("奇数",i);
 		}
 	}
 }
