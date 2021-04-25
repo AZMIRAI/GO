@@ -3,19 +3,25 @@ package main
 import "fmt"
 
 func main()  {
+
+	// ******************************
+	// ********** 練 習 *************
+	// ******************************
+
+
 	fmt.Print("数字を入力してください : ");
-		// 문자열 출력한다
+		// 文字列を出力する
 
 	var input float64;
-		// 변수 input를 float64자료형으로 선언한다
+		// 変数inputをfloat64資料型で宣言する
 
 	fmt.Scanf("%f", &input);
-		// %f 자리에 변수 input의 값이 들어가게된다
+		// %fの位置に変数inputの値が入る。
 
 	output := input * 2;
-		// 변수 output을 선언하고 값은 변수 input 값의 2배로 지정한다
+		// 変数outputを宣言して、値は変数input値の2倍に指定する。
 
 	fmt.Println(output);
-		// 변수 output을 출력한다
+		// 変数outputを出力する。
 
 }
