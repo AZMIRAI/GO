@@ -52,10 +52,19 @@ func array_02()  {
 
 	for i := 0; i < 5; i++ {
 		total += x[i]
-		// トタルはトタルプラスｘという排列のI番目の値をいれる
+			// トタルはトタルプラスｘという排列のI番目の値をいれる
 
 	}
 	fmt.Println(total / 5)
 		// トタルに５を割る
+	
+	
+	for i := 0; i < len(x); i++ {
+ 		total += x[i]
+			// 変数トタルにｘ排列の「Ｉ」に入れる
+		
+	}
+	fmt.Println(total / len(x))
+		// トタルをx排列の数に割る
 
 }
