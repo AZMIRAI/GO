@@ -64,7 +64,7 @@ func array_02()  {
 			// 変数トタルにｘ排列の「Ｉ」に入れる
 		
 	}
-	fmt.Println(total / len(x))
+	fmt.Println(int (total) / len(x))
 		// トタルをx排列の数に割る
 
 }
