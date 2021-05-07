@@ -73,7 +73,7 @@ func map_02()  {
 
 
 	fmt.Println(elements[input])
-	// elementの”input”を出す
+		// elementの”input”を出す
 
 	fmt.Println(elements["un"])
 		// 多分、これしたら何も出てこないと思う
