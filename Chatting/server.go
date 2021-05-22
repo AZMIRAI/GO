@@ -1,3 +1,5 @@
+//서버파일
+
 package main
 import (
 	"io"
