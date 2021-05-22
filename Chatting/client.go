@@ -1,3 +1,5 @@
+//킁라이언트 파일, 
+
 package main
 import (
 	"fmt"
