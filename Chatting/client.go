@@ -36,3 +36,5 @@ func main() {
 		time.Sleep(time.Duration(3) * time.Second)
 	}
 }
+
+//여기까지 출력했음
