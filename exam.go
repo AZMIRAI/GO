@@ -21,6 +21,12 @@ func main() {
 	fmt.Println(interLiteral)
 
 	forex()
+
+	forex()
+
+	forex()
+
+	forex()
 	scan()
 }
 
